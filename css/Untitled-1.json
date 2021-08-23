@@ -1,0 +1,16 @@
+[
+    {
+        "attributes" : {"type" : "Factura__c", "externalId":"CIDDOCUMENTO__c"},
+        "Folio__c" : "Folio1",
+        "CIDDOCUMENTO__c" : "Folio1",
+        "Fecha_de_Emision__c":"2020-04-16",
+        "Fecha_de_Vencimiento__c":"2020-05-29",
+        "Cuenta__r": {"IdExterno__c": "CuentaExterna"},
+        "Subtotal__c" : "57887.87",
+        "IVA__c" : "476.9",
+        "Total__c" : "324567890",
+        "Descuento__c" : "45678",
+        "CurrencyIsoCode" : "MXN",
+        "Concepto_de_la_factura__c" : "ConceptoFactura"
+    }
+]

@@ -1,0 +1,171 @@
+/** ============================================= */
+/** =    Estilos complementarios a bootstrap    = */
+/** ============================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;    
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-link:hover{
+    color:rgb(255, 255, 210) !important;
+}
+
+/** ============================================= */
+/** = Estilos de los banner y el texto en ellos = */
+/** ============================================= */
+.banner{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-color:#1d1d1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    opacity: 0.75;
+}
+.banner .banner-content{
+    position: relative;
+    max-width: 900px;
+    text-align: center;
+}
+.banner .banner-content h2{
+    color: #FFF;
+    font-size: 38px;
+    text-shadow: 2px 1px 1px rgb(3, 3, 63);
+}
+.banner .banner-content p{
+    color: #FFF;
+    font-size: 18px;
+    text-shadow: 2px 1px 1px rgb(3, 3, 63);
+}
+.banner .banner-content p:hover,
+.banner .banner-content h2:hover{
+    color:rgb(253, 255, 142)
+}
+.separador{
+    margin-top: 100px;
+}
+/** ============================================= */
+/** =  Estilos de las tarjetas de presentación  = */
+/** =  profesora y libro de teoría de la compu  = */
+/** ============================================= */
+.card{
+    height: 100%;
+}
+.card .author{    
+    border-radius: 50%;
+    max-width: 250px;
+    display: block;
+    margin: auto;
+}
+.card .libro{    
+    max-width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.card .card-body p{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    font-weight: 300;
+}
+
+
+/** ============================================= */
+/** =       Estilos del área de materias        = */
+/** ============================================= */
+.linea{
+    width: 90%; 
+    margin: auto; 
+    border: 2px solid darkgreen; 
+    color: darkgreen; 
+    background:darkgreen; 
+    height: 2px;
+}
+.materias .contenedor .titulo{
+    margin-top: 50px;
+    min-height: 50px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.materias .contenedor .imagen img{    
+    width: 100px;
+    display: block;
+    margin: auto;    
+    cursor: pointer;
+}
+.materias .contenedor .imagen img:hover{    
+    transition:all 0.5s ease;
+    width: 110px;
+    background-color: rgb(235, 255, 228);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.video{
+    margin: 50px;
+    position: relative;    
+}
+iframe{
+    display:block;    
+    margin: auto;
+    width: 75%;
+    height: 480px;
+}
+
+
+/** ============================================= */
+/** =      Estilos de la página destacados      = */
+/** ============================================= */
+.card .descargar{    
+    max-width: 60px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+.card .descargar:hover{
+    padding: 4px;
+}
+.presentacion{
+    margin: 50px;
+    position: relative;    
+}
+.presentacion iframe{
+    display:block;    
+    margin: auto;
+    width: 100%;
+    min-height: 150px;
+    max-height: 569px;
+}
+
+.presentacionMaterias{    
+    position: relative;    
+}
+.presentacionMaterias iframe{
+    display:block;    
+    margin: auto;
+    width: 100%;
+    min-height: 150px;
+    max-height: 480px;
+}
+.card .miniatura{    
+    max-width: 250px;
+    display: block;
+    margin: auto;    
+}
